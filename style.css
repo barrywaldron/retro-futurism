@@ -2,8 +2,7 @@ body {
   font-family: font-family: 'Girassol', cursive;
   color: #fff;
   background-image: url(/assets/retrobackground.jpg);
-  
-}
+  }
 .wrapper {
   margin: 0 auto;
   max-width: 980px;
@@ -12,7 +11,10 @@ h1 {
   font-size: 100px;
   text-align: center;
 }
-h2 {
+.nav-link {
+  position: relative;
   font-size: 50px;
+  color: #fff;
   text-align: center;
+  text-decoration: none;
 }
