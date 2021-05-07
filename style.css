@@ -11,10 +11,50 @@ h1 {
   font-size: 100px;
   text-align: center;
 }
-.nav-link {
+nav {
   position: relative;
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  border: solid;
+  padding:10px;
+  background: #000;
+}
+ul {  
+  list-style-type: none;
+}
+button {
+  background-color: #4caf50;
+  width: 100%;
+  color: #ffa500;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password]{
+  width: 100%;
+  margin: 8px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid #008000;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+[
