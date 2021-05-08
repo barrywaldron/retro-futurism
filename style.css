@@ -24,8 +24,12 @@ nav {
   padding:10px;
   background: #000;
 }
+li {
+  padding-top: 40px;
+}
 ul {  
   list-style-type: none;
+  
 }
 button {
   background-color: #2a1fc2;
@@ -59,5 +63,9 @@ button:hover {
   margin-right: auto;
   width: 50%;
   padding: 25px;
+}
+img {
+  width: 450px;
+  height: 400px;
 }
 
